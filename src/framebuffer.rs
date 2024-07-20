@@ -81,7 +81,7 @@ impl Framebuffer {
     }
 
     pub fn fill_polygon(&mut self, vertices: &[Vec3], fill_color: Color) {
-        // Función de relleno permanece sin cambios
+        
     }
 
     pub fn as_u32_buffer(&self) -> Vec<u32> {

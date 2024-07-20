@@ -44,7 +44,7 @@ fn initialize_pattern(framebuffer: &mut Framebuffer, count: usize) {
 
 
 fn add_block(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (0, 0), (1, 0),
         (0, 1), (1, 1),
@@ -55,7 +55,7 @@ fn add_block(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_beehive(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (1, 0), (2, 0),
         (0, 1), (3, 1),
@@ -67,7 +67,7 @@ fn add_beehive(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_loaf(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (1, 0), (2, 0),
         (0, 1), (3, 1),
@@ -80,7 +80,7 @@ fn add_loaf(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_boat(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (0, 0), (1, 0),
         (0, 1), (2, 1),
@@ -92,7 +92,7 @@ fn add_boat(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_tub(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (1, 0),
         (0, 1), (2, 1),
@@ -104,7 +104,7 @@ fn add_tub(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_blinker(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (0, 0), (1, 0), (2, 0),
     ];
@@ -114,7 +114,7 @@ fn add_blinker(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_toad(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (1, 0), (2, 0), (3, 0),
         (0, 1), (1, 1), (2, 1),
@@ -125,7 +125,7 @@ fn add_toad(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_beacon(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (0, 0), (1, 0),
         (0, 1),
@@ -138,7 +138,7 @@ fn add_beacon(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_pulsar(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (2, 0), (3, 0), (4, 0), (8, 0), (9, 0), (10, 0),
         (0, 2), (5, 2), (7, 2), (12, 2),
@@ -157,7 +157,7 @@ fn add_pulsar(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_pentadecathlon(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (0, 0), (1, 0), (3, 0), (4, 0),
         (0, 2), (1, 2), (3, 2), (4, 2),
@@ -172,7 +172,7 @@ fn add_pentadecathlon(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_glider(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (1, 0),
         (2, 1),
@@ -184,7 +184,7 @@ fn add_glider(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_lwss(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (1, 0), (4, 0),
         (0, 1),
@@ -197,7 +197,7 @@ fn add_lwss(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_mwss(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (1, 0), (2, 0), (3, 0), (4, 0), (5, 0),
         (0, 1), (5, 1),
@@ -210,7 +210,7 @@ fn add_mwss(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 }
 
 fn add_hwss(framebuffer: &mut Framebuffer, x: usize, y: usize) {
-    framebuffer.set_current_color(0xFFFFFF);
+    framebuffer.set_current_color(0xBF00FF);
     let pattern = [
         (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0),
         (0, 1), (6, 1),
@@ -225,11 +225,11 @@ fn add_hwss(framebuffer: &mut Framebuffer, x: usize, y: usize) {
 
 fn render(framebuffer: &mut Framebuffer) {
     // Clear the framebuffer
-    framebuffer.set_background_color(0x333355);
+    framebuffer.set_background_color(0x000000);
     framebuffer.clear();
 
     // Draw some points
-    framebuffer.set_current_color(0xFFDDDD);
+    framebuffer.set_current_color(0x21c4b7);
     framebuffer.point(20, 40);
 }
 
@@ -239,7 +239,7 @@ fn count_live_neighbors(framebuffer: &Framebuffer, x: isize, y: isize) -> usize 
 
     for (dx, dy) in deltas.iter() {
         if let Some(color) = framebuffer.get_point(x + dx, y + dy) {
-            if color == Color::new(255, 255, 255) {
+            if color == Color::new(191, 0, 255) {
                 count += 1;
             }
         }
@@ -257,13 +257,13 @@ fn update_framebuffer(framebuffer: &mut Framebuffer) {
             let index = y * framebuffer.width + x;
             let cell = framebuffer.buffer[index];
 
-            if cell == Color::new(255, 255, 255) {
+            if cell == Color::new(191, 0, 255) {
                 if live_neighbors < 2 || live_neighbors > 3 {
                     new_buffer[index] = Color::new(0, 0, 0); // Muere
                 }
             } else {
                 if live_neighbors == 3 {
-                    new_buffer[index] = Color::new(255, 255, 255); // Nace
+                    new_buffer[index] = Color::new(191, 0, 255); // Nace
                 }
             }
         }
@@ -291,9 +291,9 @@ fn main() {
         WindowOptions::default(),
     ).unwrap();
 
-    initialize_pattern(&mut framebuffer,10);
+    initialize_pattern(&mut framebuffer,18);
 
-    while window.is_open() && !window.is_key_down(Key::Escape) {
+    while window.is_open() && !window.is_key_down(Key::Q) {
         // Actualizar framebuffer
         update_framebuffer(&mut framebuffer);
 
@@ -303,5 +303,7 @@ fn main() {
             .unwrap();
 
         std::thread::sleep(frame_delay);
+
+
     }
 }
